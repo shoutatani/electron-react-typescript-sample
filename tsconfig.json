@@ -1,0 +1,15 @@
+{
+  "include": ["./src/types/*"],
+  "compilerOptions": {
+    "sourceMap": true,
+    "target": "es5",    // 出力するJavaScriptは、ES5で解釈できるよう出力
+    "module": "es2015", // 出力するJavaScriptは、ES Modules形式として出力
+    "moduleResolution": "node",
+    "jsx": "react",
+    "noImplicitAny": false,
+    "lib": [
+      "ES2019",
+      "DOM"
+    ]
+  }
+}
